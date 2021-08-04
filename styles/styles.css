@@ -1,0 +1,225 @@
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input:focus{
+    outline: none;
+}
+
+.gray-button {
+    margin-left: 6px;
+    margin-right: 6px;
+    height: 36px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #5F6368;
+    padding: 0 16px;
+    background-color: #f2f2f2;
+}
+
+.gray-button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #f2f2f2;
+    border: 1px solid #c6c6c6;
+    color: black;
+}
+
+.blue-button {
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    height: 30px;
+    width: 69px;
+    margin-left: 18px;
+}
+
+.mic-button {
+    background-color: white;
+    border: 1px white;
+    padding-right: 10px;
+}
+
+.blue-button:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 15%)
+}
+
+.apps-menu {
+    opacity: 0.6;
+}
+
+.apps-menu:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.top-bar-left {
+    position: absolute;
+    top: 0px;
+    margin-top: 1.65em;
+    margin-left: 0.1em;
+    font-size: 14px;
+    width: 15%;
+}
+
+.top-bar-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    margin-top: 1.15em;
+    font-size: 14px;
+    right: 0;
+    padding-right: 30px;
+}
+
+.right-bar-text {
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.top-bar-text {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding-left: 15px;
+    color: rgb(0,0,0);
+    opacity: 0.75;
+}
+
+
+.top-bar-text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search {
+    display: flex;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: #bbb;
+    border-width: 1px;
+    width: 560px;
+    height: 24px;
+    font-size: 14px;
+    border-color: #ddd;
+    padding: 10px;
+}
+
+.search:hover {
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+img {
+    display: block;
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    border: white;
+}
+
+.icon {
+    width: 13px;
+    height: 19px;
+}
+
+.icon2 {
+    width: 20px;
+    height: 20px;
+    padding-left: 3px;
+    padding-top: 2px;
+    opacity: 40%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 198px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.search-button {
+    width: 134px;
+}
+
+.lucky-button {
+    width: 148px;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.bottom-bar {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .bottom-bar .a-left {
+    float: left;
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 12px 0px 17px 27px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .bottom-bar .a-left:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .bottom-bar .a-right {
+    float: right;
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 12px 27px 17px 0px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .bottom-bar .a-right:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
